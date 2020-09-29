@@ -22,7 +22,7 @@ class RoomsController < ApplicationController
   end
 
 
-  private
+ima  private
 
   def room_params
     params.require(:room).permit(:name, user_ids: [])
